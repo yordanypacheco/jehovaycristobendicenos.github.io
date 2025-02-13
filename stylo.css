@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Arial White;
+}
+
+body{
+    height: 100vh;
+    background-image: url(Imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.ConteE{
+    background-color: white;
+    width: 26cm;
+    height: 2cm;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+
+
+.img-1{
+    margin-left: 0cm;
+    margin-top: -0cm;
+}
+
+.img-2{
+    margin-left: 22.4cm;
+    margin-top: -2.5cm;
+}
+.ConteE h1{
+    width: 14cm;
+    height: 2cm;
+    color: green;
+    font-family: Arial white;
+    text-align: center;
+    margin-top:0.5cm;
+    margin-left: 3.1cm;
+    font-size: 25px;
+
+}
+
+.nav3 li a{
+    background-color: green;
+    color:white;
+    text-decoration: none;
+    padding:  5px 15px;
+    display:none;
+    font-size: 17px;
+    font-weight:750;
+    margin-left: 6cm;
+    margin-top: -0.3cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav3 li a:hover{
+    background-color: grey;
+}
+
+.nav3 > li {
+    float:left ;
+}
+.nav3 li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav3 li:hover > ul {
+    display:block;
+}
+.nav3 li ul li {
+    position: relative;
+}
+
+.nav3 li ul li ul {
+    right: 140px;
+    top:0px ;
+}
+
+
+.botones nav{
+    padding: 10px;
+    margin-left: 0.1cm;
+    margin-top: 0.3cm;   
+    text-align: center;
+    color: white;
+    
+
+
+}
+
+.E1{
+    color: white;
+}
+.E2{
+    color: white;
+}
+.E3{
+    color: white;
+}
+.E4{
+    color: white;
+}
+.E5{
+    color: white;
+}
+.E7{
+    color: white;
+}
+.E8{
+    color: white;
+}
+
+
+
+
+
+.botones2 nav {
+    padding: 10px;
+    margin-left: 13.5cm;
+    margin-top: -1.5cm;   
+    text-align: left;
+    color: white;
+    
+
+}
+
+.botones2 nav a:link{
+    background-color: green;
+    padding:6px;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight:800;
+    margin: 2px;}
+
+
+.botones  li a {
+    background-color: green;
+    color:  white;
+    padding: 7px;
+    display: block;
+    margin-left: 8cm;
+    
+
+}
+
+.botones nav a:link{
+    background-color: green;
+    padding:6px ;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:800;
+    margin: 4px;}
+
+
+.centro{
+    width: 15cm;
+    height: 7cm;
+    margin-top: 1.5cm;
+    margin-left: 2.4cm;
+}
+
+.google{
+    padding: 1px;
+    margin-left: 7cm;
+    margin-top: 6cm;
+}
+
+.google a img{
+    padding: 2px;
+    margin: 30px;
+    
+}
+
+.tituloMi{
+    
+    color: black;
+    width: 3cm;
+    height: 1cm;
+    margin-left: 6.6cm;
+    margin-top: 1cm;
+}
+
+.mision{
+    width: 7cm;
+    height: 8cm;
+    margin-left: 4cm;
+    margin-top: 0.5cm;
+}
+
+.misioni{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    margin-left: 4cm;
+    margin-top: -5.7cm;
+    width: 8.3cm;
+    height: 8cm;
+    text-align: justify;
+    font-size: 1em;
+    line-height:1.8em;
+    
+}
+
+.tituloVi{
+    
+    color: black;
+    width: 3cm;
+    height: 1cm;
+    margin-left: 16.2cm;
+    margin-top: -11.8cm;
+}
+
+.vision{
+    width: 10cm;
+    height: 8cm;
+    margin-left: 14cm;
+    margin-top: 0.5cm;
+}
+
+.visioni{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    margin-left: 14cm;
+    margin-top: -5.7cm;
+    width: 8.6cm;
+    height: 12cm;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+.tituloubica{
+    margin-left: 8.5cm;
+    margin-top: 1cm;
+}
+
+.ubica{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    width: 10cm;
+    height: 8cm;
+    margin: 3px;
+    margin-left: 5cm;
+    text-align: justify;
+    margin-top: -1.cm;
+    font-size: 1em;
+    line-height:1.8em;
+}
+
+.brujula {
+    margin-left: 19cm;
+    margin-top: -5.5cm;
+}
+
+.historia{
+    padding: 5px;
+    background-color: green;
+    color: white;
+    width: 20.5cm;
+    height: 16.5cm;
+    margin-left: 2.7cm;
+    margin-top: 1cm;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.8em;
+
+}
+
+
+.for {
+    margin-top: 0.3cm;
+    margin-left: 2.3cm;
+}
+.formulario {
+    margin-top: -13cm;
+    margin-left: 3cm;
+}
+
+.controls {
+    width: 9.4cm;
+    height: 1cm;
+    margin-left: 5.5cm;
+}
+.control {
+    width: 9.4cm;
+    height: 5cm;
+    margin-left: 5.5cm;
+}
+.botons{
+    width: 1.5cm;
+    height: 1cm;
+    margin-left: 9.3cm;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movies  {
+    padding: 50px 0 150px 0;
+}
+
+.movies  h2 {
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-left: 10cm;
+}
+
+.swiper {
+    width: 100%;
+    margin-top: 1cm;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.estudio{
+    background-color: white;
+    color: black;
+    width: 20cm ;
+    height: 15cm;
+    margin-top: 2cm;
+    text-align: center;
+    margin-left: 2.8cm;
+}
+.estudio hr{
+    width: 15cm;
+    margin-left: 2.4cm  ;
+}
+
+.Imprimir{ 
+    background-color:green;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 11.5cm;
+    margin-top: 2cm;
+    text-decoration: none;
+}
+
+.botones nav3 ul espacio{
+    margin-top: 1.5cm;
+}
+
+
+@media(max-width:991px) {
+
+    body {
+        min-height: 0vh;
+    }
+
+    .movies {
+        padding: 30px;
+    }
+}
+
+
+
+
+
+
+/*
+<div class="container">
+        <input type="text" placeholder="Buscar...">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        
+    </div>
+   
+
+
+.container{
+    position: relative;
+}
+
+input {
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+button {
+    background-color: red;
+    padding: 10px 15px;
+    margin-left: -10cm;
+    border: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius:0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+}*/
